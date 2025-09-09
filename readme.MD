@@ -35,6 +35,9 @@ docker run -ti --name local-ai -p 8080:8080 localai/localai:latest-gpu-intel-f16
 docker run -ti --name local-ai -p 8080:8080 localai/localai:latest-gpu-intel-f32
 ```
 
+##### recording explain how it works
+https://youtu.be/tTeq4qCR0Ls
+
 #### AMD GPU Images (ROCm)
 ```
 docker run -ti --name local-ai -p 8080:8080 --device=/dev/kfd --device=/dev/dri --group-add=video localai/localai:latest-gpu-hipblas
